@@ -1,0 +1,12 @@
+{
+    // Format a file on save. A formatter must be available
+    // The file must not be auto-saved
+    "editor.formatOnSave": true,
+    // Enable/disable default JavaScript formatter (For Prettier)
+    "javascript.format.enable": false,
+    // trun it off for JS
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "git.ignoreLimitWarning": true
+}

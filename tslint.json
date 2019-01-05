@@ -1,0 +1,25 @@
+{
+    "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+    "rules": {
+        "no-debugger": false,
+        "no-console": false,
+        "space-before-function-paren": false,
+        "linebreak-style": [true, "LF"],
+        "no-shadowed-variable": true,
+        "only-arrow-functions": true,
+        "jsx-wrap-multiline": false
+    },
+    "linterOptions": {
+        "exclude": [
+            "config/**/*.js",
+            "node_modules/**/*.ts",
+            "public/**/*.js",
+            "build/**/*.js",
+            "src/serviceWorker.ts",
+            "src/react-app-env.d.ts"
+        ]
+    },
+    "plugins": [
+        "prettier"
+    ]
+}
