@@ -20,6 +20,14 @@
     "jsx": "preserve",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"],
+      // "*": [
+      //   "src/shared/*"
+      // ]
+      // "shared/*": ["screens/app/shared/*"]
+    },
     "plugins": [{
       "name": "typescript-tslint-plugin"
     }]

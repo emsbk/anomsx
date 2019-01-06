@@ -3,6 +3,7 @@
     "rules": {
         "no-debugger": false,
         "no-console": false,
+        "member-access": false,
         "space-before-function-paren": false,
         "linebreak-style": [true, "LF"],
         "no-shadowed-variable": true,

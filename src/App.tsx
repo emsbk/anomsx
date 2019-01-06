@@ -2,7 +2,9 @@ import { Component } from 'react';
 import './App.css';
 import logoSvg from './logo.svg';
 
-class App extends Component {
+class App extends Component<{}, { init: boolean }> {
+  state = { init: true };
+
   public render() {
     return (
       <div className="App">
