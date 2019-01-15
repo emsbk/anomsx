@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
 // @ts-ignore
 import { Accordion, AccordionItem } from 'carbon-components-react';
+import React, { Component } from 'react';
 
 class AccordionExample extends Component {
     public render() {
